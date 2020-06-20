@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.ct.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+	<test name="NearPayInterviewTest1">
+		<classes>
+			<class name="com.ct.qa.testcases.LoginPageTest"></class>
+		</classes>
+	</test>
+	
+	<test name="NearPayInterviewTest2">
+		<classes>
+			<class name="com.ct.qa.testcases.OneWaySearchTest"></class>
+		</classes>
+	</test>
+	
+	<test name="NearPayInterviewTest3">
+		<classes>
+			<class name="com.ct.qa.testcases.OneWaySearchTestForLoginUser"></class>
+		</classes>
+	</test>
+	
+</suite>
